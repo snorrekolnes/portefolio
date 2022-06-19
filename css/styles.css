@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+.inner {
+    padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+body {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.card-1, .card-2, .card-3 {
+    height: 300px;
+    width: 150px;
+    border: 1px solid rgb(217, 184, 199);
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(140, 95, 102);
+}
+main {
+    background-color: rgb(217, 184, 199);
+}
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+    margin: 0 auto;
+}
+
+h1 {
+color: rgb(217, 215, 204);
+}
+h2 {
+    margin: 0 auto;
+    padding-top: 20px;
+    color: rgb(93, 152, 193);
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+img {
+    height: 100px;
+    width: 110px;
+margin-left: 20px;
+margin-right: 20px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(217, 215, 204);
+}
+button, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header {
+    background-color: rgb(140, 95, 102);
+    margin: 0 auto;
+}
+button {
+    border: 1px solid rgb(217, 215, 204);
+    border-radius: 5px;
+    color:rgb(217, 215, 204);
+    background-color: rgb(140, 95, 102);
+}
+h3 {
+    color: rgb(217, 184, 199);
+}
